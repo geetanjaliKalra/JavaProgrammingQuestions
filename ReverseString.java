@@ -3,9 +3,14 @@ public class ReverseString {
 
 	public static void main(String[] args) {
 		
-		System.out.println("hello");
-		// TODO Auto-generated method stub
+	String orignalString="Geetanjali";
+	String reversedString="";
+	
+	for(int i=orignalString.length()-1;i>=0;i--) {
+		reversedString=reversedString+orignalString.charAt(i);
+	}
 
+	System.out.println("Reversed String is "+reversedString);
 	}
 
 }
